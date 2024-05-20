@@ -20,23 +20,24 @@ The data set contains the following diseases: Actinic keratosis,Basal cell carci
 ## General Information
 In this work we have build a multiclass classification model using a custom convolutional neural network in TensorFlow. It is a CNN based model which can accurately detect melanoma. 
 For the training and testing of the model,the dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). The data set contains the following diseases:
--Actinic keratosis
 
--Basal cell carcinoma
+Actinic keratosis
 
--Dermatofibroma
+Basal cell carcinoma
 
--Melanoma
+Dermatofibroma
 
--Nevus
+Melanoma
 
--Pigmented benign keratosis
+Nevus
 
--Seborrheic keratosis
+Pigmented benign keratosis
 
--Squamous cell carcinoma
+Seborrheic keratosis
 
--Vascular lesion
+Squamous cell carcinoma
+
+Vascular lesion
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 

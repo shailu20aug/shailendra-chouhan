@@ -42,18 +42,29 @@ Vascular lesion
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Conclusion 1 from the analysis:
+  Basic Model was overfitting due to less number of images for training and prsence of class imbalance.
+  
+- Conclusion 2 from the analysis:
+  Data Augmentation techniques like random flipping, rotation etc helped in removing the overfitting but the overall accuracy of the model could not   be improved due to class imbalance.
+  
+- Conclusion 3 from the analysis:
+  Augmentation of class data with addition of 500 images in each class improved the class balance significantly and it is reflecting in the good     training and validation accuracy.
+  
+- Conclusion 4 from the analysis:
+  Batch Normalisation even with batch sizes of 32,64 and 128 doesn't seems to improve the validation accuracy. Batch normalisation was attempted   across layers but none of such experiments could result in stable model.
+  
+- Conclusion 5 from the analysis.
+  Various combination of Convolutional layers had been attempted but model with 2 no. Convolutional layers of 32 filters, one with 64 filters and one   128 filters followed by flattened layer and dense layer with 256 neurons seems doing fine both on simplicity and accuracy parameters.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Pandas Version is: 2.1.4
+- Numpy Version is: 1.26.4
+- Tensorflow Version is: 2.16.1
+- Keras Version is: 3.3.3
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
